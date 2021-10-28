@@ -1,0 +1,47 @@
+.Container{
+  background-color:#FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  color:rgba(0, 0, 0, 0.687);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
+.logoContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  width: auto;
+  height: 80px;
+  padding: 15px 0px 15px 15px;
+}
+
+.title{
+  padding-top: 15px;
+  color: black;
+  margin-left: 50px;
+}
+
+.buttonContainer{
+  padding-top: 40px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.btn{
+  background-color: transparent;
+  border: none;
+  margin-left: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.btn:hover{
+  transition:  ease-in-out 0.3s;
+  opacity: 0.6;
+}
