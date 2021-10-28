@@ -1,12 +1,14 @@
-.Container{
+.ContainerNavBar{
   background-color:#FFF;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex: 1;
   color:rgba(0, 0, 0, 0.687);
   border-bottom-style: solid;
   border-bottom-width: thin;
+  position: relative;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .logoContainer{

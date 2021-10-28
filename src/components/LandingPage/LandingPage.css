@@ -1,3 +1,99 @@
-.intro {
-  
+.ContainerLanding{
+  display: flex;
+  flex-direction: column;
+}
+
+.FEC{
+  overflow: hidden;
+  max-height: 20vh;
+  min-height: 20vh;
+  min-width: 100%;
+  max-width: 100%;
+  transition: ease-in-out 0.5s;
+}
+
+.FEC img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .FEC div{
+  position: absolute;
+  color: black;
+  max-width: 100%;
+  max-height: 100%;
+  visibility: hidden;
+  transition: ease-in 0.3s;
+  top: 25%;
+} */
+
+.FEC:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  opacity: 0.8;
+}
+
+/* .FEC:hover div{
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  transition: ease-in 0.3s;
+} */
+
+.SDC{
+  overflow: hidden;
+  max-height: 30vh;
+  min-width: 100%;
+  max-width: 100%;
+  transition: ease-in-out 0.5s;
+}
+
+.SDC:hover {
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  opacity: 0.8;
+}
+
+.SDC img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.BlueOcean{
+  overflow: hidden;
+  max-height: 25vh;
+  min-width: 100%;
+  max-width: 100%;
+  transition: ease-in-out 0.5s;
+}
+
+.BlueOcean:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  opacity: 0.8;
+}
+
+.BlueOcean img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.RPG{
+  overflow: hidden;
+  max-height: 30vh;
+  min-width: 100%;
+  max-width: 100%;
+  transition: ease-in-out 0.5s;
+}
+
+.RPG:hover {
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  opacity: 0.8;
+}
+
+.RPG img{
+  max-width: 100%;
+  max-height: 100%;
 }
