@@ -1,14 +1,17 @@
 .ContainerLanding{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: rgb(179, 179, 179);
 }
 
 .FEC{
+  padding-top: 20px;
   overflow: hidden;
   max-height: 20vh;
   min-height: 20vh;
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 70%;
+  max-width: 70%;
   transition: ease-in-out 0.5s;
 }
 
@@ -17,7 +20,7 @@
   max-height: 100%;
 }
 
-/* .FEC div{
+.FEC div{
   position: absolute;
   color: black;
   max-width: 100%;
@@ -25,33 +28,33 @@
   visibility: hidden;
   transition: ease-in 0.3s;
   top: 25%;
-} */
+}
 
 .FEC:hover {
   cursor: pointer;
   transition: ease-in-out 0.5s;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
-/* .FEC:hover div{
+.FEC:hover div{
   width: 150px;
-  padding: 8px 15px;
   visibility: visible;
   transition: ease-in 0.3s;
-} */
+}
 
 .SDC{
+  padding-top: 10px;
   overflow: hidden;
   max-height: 30vh;
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 70%;
+  max-width: 70%;
   transition: ease-in-out 0.5s;
 }
 
 .SDC:hover {
   cursor: pointer;
   transition: ease-out 0.5s;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .SDC img {
@@ -61,17 +64,18 @@
 }
 
 .BlueOcean{
+  padding: 10px;
   overflow: hidden;
-  max-height: 25vh;
-  min-width: 100%;
-  max-width: 100%;
+  max-height: 30vh;
+  min-width: 70%;
+  max-width: 70%;
   transition: ease-in-out 0.5s;
 }
 
 .BlueOcean:hover {
   cursor: pointer;
   transition: ease-in-out 0.5s;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .BlueOcean img{
@@ -82,15 +86,15 @@
 .RPG{
   overflow: hidden;
   max-height: 30vh;
-  min-width: 100%;
-  max-width: 100%;
+  min-width: 70%;
+  max-width: 70%;
   transition: ease-in-out 0.5s;
 }
 
 .RPG:hover {
   cursor: pointer;
   transition: ease-in-out 0.5s;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .RPG img{

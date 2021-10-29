@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './LandingPage.css';
-import FEC from '../Images/frontPage.png';
+import './Projects.css';
+import FEC from '../Images/frontPageEdit.png';
 import SDC from '../Images/databaseImage.png';
-import Billy from '../Images/healthyFood.png';
-import RPG from '../Images/recyclePG.png';
+import Billy from '../Images/healthyFoodEdit.png';
+import RPG from '../Images/recyclePGEdit.png';
 
-const LandingPage = () => {
+const Projects = () => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -27,4 +27,4 @@ const LandingPage = () => {
   );
 }
 
-export default LandingPage;
+export default Projects;
