@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.77fce6f6.chunk.css",
+    "main.js": "/portfolio/static/js/main.5f4e977e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5f4e977e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.add5b6e2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.add5b6e2.js.map",
+    "static/js/2.c996e941.chunk.js": "/portfolio/static/js/2.c996e941.chunk.js",
+    "static/js/2.c996e941.chunk.js.map": "/portfolio/static/js/2.c996e941.chunk.js.map",
+    "static/js/3.947eb9de.chunk.js": "/portfolio/static/js/3.947eb9de.chunk.js",
+    "static/js/3.947eb9de.chunk.js.map": "/portfolio/static/js/3.947eb9de.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.77fce6f6.chunk.css.map": "/portfolio/static/css/main.77fce6f6.chunk.css.map",
+    "static/js/2.c996e941.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c996e941.chunk.js.LICENSE.txt",
+    "static/media/catLogo.e6d8f85d.jpg": "/portfolio/static/media/catLogo.e6d8f85d.jpg",
+    "static/media/databaseImage.d0907457.png": "/portfolio/static/media/databaseImage.d0907457.png",
+    "static/media/frontPageEdit.10a95a99.png": "/portfolio/static/media/frontPageEdit.10a95a99.png",
+    "static/media/healthyFoodEdit.f54032cb.png": "/portfolio/static/media/healthyFoodEdit.f54032cb.png",
+    "static/media/recyclePGEdit.e50a0360.png": "/portfolio/static/media/recyclePGEdit.e50a0360.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.add5b6e2.js",
+    "static/js/2.c996e941.chunk.js",
+    "static/css/main.77fce6f6.chunk.css",
+    "static/js/main.5f4e977e.chunk.js"
+  ]
+}
