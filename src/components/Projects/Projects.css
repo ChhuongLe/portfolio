@@ -25,7 +25,9 @@
   top: 22%;
   right: 48%;
   visibility: hidden;
-  transition: ease-in 0.1s;
+  transition: ease-in 0.1
+
+  s;
 }
 
 .FEC:hover {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Projects.css';
 import FEC from '../Images/frontPageEdit.png';
 import SDC from '../Images/databaseImage.png';
-import Billy from '../Images/healthyFoodEdit.png';
+import Billy from '../Images/healthyFoodsEdit.PNG';
 import RPG from '../Images/recyclePGEdit.png';
 
 const Projects = () => {
@@ -14,12 +14,15 @@ const Projects = () => {
       </div>
       <div className="SDC">
         <img src={SDC} alt="not available" />
+        <div className="img_description">Atlier QA Backend</div>
       </div>
       <div className="BlueOcean">
         <img src={Billy} alt="not available" />
+        <div className="img_description">Health Foods Inc.</div>
       </div>
       <div className="RPG">
         <img src={RPG} alt="not available" />
+        <div className="img_description">Recycle PG</div>
       </div>
     </div>
   );
