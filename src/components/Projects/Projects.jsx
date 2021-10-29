@@ -6,13 +6,11 @@ import Billy from '../Images/healthyFoodEdit.png';
 import RPG from '../Images/recyclePGEdit.png';
 
 const Projects = () => {
-  const [hover, setHover] = useState(false);
-
   return (
-    <div className="ContainerLanding">
+    <div className="ContainerProjects">
       <div className="FEC" role="button">
         <img src={FEC} alt="not available" />
-        <div>Project-Catwalk</div>
+        <div className="img_description">Project-Catwalk</div>
       </div>
       <div className="SDC">
         <img src={SDC} alt="not available" />
