@@ -6,6 +6,7 @@ import Billy from '../Images/healthyFoodsEdit.PNG';
 import RPG from '../Images/recyclePGEdit.png';
 
 const Projects = () => {
+  // Todo: make individual projects into components for modularity
   return (
     <div className="ContainerProjects">
       <div className="FEC" role="button">

@@ -6,9 +6,10 @@
   color:rgba(0, 0, 0, 0.687);
   border-bottom-style: solid;
   border-bottom-width: thin;
-  position: relative;
+  position: fixed;
   min-width: 100%;
   max-width: 100%;
+  z-index: 10;
 }
 
 .logoContainer{
