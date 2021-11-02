@@ -1,0 +1,5 @@
+.landingContainer{
+  display: flex;
+  background-color: grey;
+  margin-top: 130px;
+}

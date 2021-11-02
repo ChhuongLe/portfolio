@@ -1,8 +1,9 @@
 import React from 'react';
+import './Landing.css';
 
 const Landing = () => {
   return(
-    <div>
+    <div className="landingContainer">
       This is the main page
    </div>
   );

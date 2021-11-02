@@ -10,7 +10,7 @@ import logo from '../Images/catLogo.jpg';
 const NavBar = () => {
   return (
     <div className="ContainerNavBar">
-        <Link className="logoLink" to ='/home'>
+        <Link className="logoLink" to ='/portfolio/home'>
           <div className="logoContainer">
             <img className="logo" src={logo} alt="not available" />
             <h1 className="title">Loki's Den</h1>

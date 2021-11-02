@@ -1,0 +1,10 @@
+.footerContainer{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 100%;
+  max-width: 100%;
+  position: relative;
+  bottom: 0;
+}
