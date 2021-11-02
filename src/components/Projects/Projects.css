@@ -18,8 +18,13 @@
   max-height: 100%;
 }
 
+.FEC a{
+  text-decoration:none;
+  color: black;
+}
+
 .img_description{
-  font-size: 50px;
+  font-size: 3vw;
   position: absolute;
   color: black;
   top: 22%;

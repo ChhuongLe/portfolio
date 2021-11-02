@@ -10,8 +10,9 @@ const Projects = () => {
   return (
     <div className="ContainerProjects">
       <div className="FEC" role="button">
-        <img src={FEC} alt="not available" />
-        <div className="img_description">Project-Catwalk</div>
+        <a href="https://github.com/ChhuongLe/project-catwalk"><img src={FEC} alt="not available" />
+          <div className="img_description">Project-Catwalk</div>
+        </a>
       </div>
       <div className="SDC">
         <img src={SDC} alt="not available" />
