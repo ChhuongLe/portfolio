@@ -15,10 +15,10 @@ function App() {
       <div className="App">
         <NavBar />
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <Landing />
           </Route>
-          <Route path='/projects'>
+          <Route exact path='/projects'>
             <Projects />
           </Route>
         </Switch>
