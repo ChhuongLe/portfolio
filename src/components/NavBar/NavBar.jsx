@@ -17,9 +17,9 @@ const NavBar = () => {
           </div>
         </Link>
     <div className="buttonContainer">
-        <Link className="btn" to='/projects'>Projects</Link>
-        <Link className="btn" to='/about'>About</Link>
-        <Link className="btn" to='/contact'>Contact Me</Link>
+        <Link className="btn" to='/portfolio/projects'>Projects</Link>
+        <Link className="btn" to='/portfolio/about'>About</Link>
+        <Link className="btn" to='/portfolio/contact'>Contact Me</Link>
       </div>
     </div>
   )
