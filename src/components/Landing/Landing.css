@@ -1,5 +1,27 @@
 .landingContainer{
   display: flex;
-  background-color: grey;
-  margin-top: 130px;
+  background-color: #DAE6F2;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.background {
+  max-width: 50%;
+}
+
+.intro {
+  position: absolute;
+  margin: 5% auto 0 auto;
+  font-size: 1.5vw;
+}
+.name {
+  position: absolute;
+  margin: 8% auto 0 auto;
+  font-size: 2vw;
+}
+
+.job {
+  position: absolute;
+  margin: 11% auto 0 auto;
+  font-size: 1vw;
 }

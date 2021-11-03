@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footerContainer">Hello</div>
+    <div className="footerContainer">Add LinkedIn and Github icons here</div>
   )
 }
 
