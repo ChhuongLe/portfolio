@@ -16,12 +16,18 @@
 }
 .name {
   position: absolute;
-  margin: 8% auto 0 auto;
+  margin: 7.5% auto 0 auto;
   font-size: 2vw;
 }
 
 .job {
   position: absolute;
-  margin: 11% auto 0 auto;
+  margin: 10.5% auto 0 auto;
   font-size: 1vw;
 }
+
+.techContainer{
+  background-color: #FFF;
+  text-align: center;
+}
+
