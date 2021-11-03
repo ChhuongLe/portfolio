@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a8f6407.chunk.css",
-    "main.js": "/portfolio/static/js/main.1837730f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1837730f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.8217cc83.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8217cc83.js.map",
-    "static/js/2.b1ecf739.chunk.js": "/portfolio/static/js/2.b1ecf739.chunk.js",
-    "static/js/2.b1ecf739.chunk.js.map": "/portfolio/static/js/2.b1ecf739.chunk.js.map",
-    "static/js/3.53ba1df7.chunk.js": "/portfolio/static/js/3.53ba1df7.chunk.js",
-    "static/js/3.53ba1df7.chunk.js.map": "/portfolio/static/js/3.53ba1df7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9829045f.chunk.css",
+    "main.js": "/portfolio/static/js/main.df532d6d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df532d6d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2e3cbea4.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2e3cbea4.js.map",
+    "static/js/2.8f2ee94b.chunk.js": "/portfolio/static/js/2.8f2ee94b.chunk.js",
+    "static/js/2.8f2ee94b.chunk.js.map": "/portfolio/static/js/2.8f2ee94b.chunk.js.map",
+    "static/js/3.6433b16e.chunk.js": "/portfolio/static/js/3.6433b16e.chunk.js",
+    "static/js/3.6433b16e.chunk.js.map": "/portfolio/static/js/3.6433b16e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.4a8f6407.chunk.css.map": "/portfolio/static/css/main.4a8f6407.chunk.css.map",
-    "static/js/2.b1ecf739.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b1ecf739.chunk.js.LICENSE.txt",
+    "static/css/main.9829045f.chunk.css.map": "/portfolio/static/css/main.9829045f.chunk.css.map",
+    "static/js/2.8f2ee94b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8f2ee94b.chunk.js.LICENSE.txt",
+    "static/media/Mountains.611031c7.jpg": "/portfolio/static/media/Mountains.611031c7.jpg",
     "static/media/catLogo.e6d8f85d.jpg": "/portfolio/static/media/catLogo.e6d8f85d.jpg",
     "static/media/databaseImage.d0907457.png": "/portfolio/static/media/databaseImage.d0907457.png",
     "static/media/frontPageEdit.10a95a99.png": "/portfolio/static/media/frontPageEdit.10a95a99.png",
@@ -19,9 +20,9 @@
     "static/media/recyclePGEdit.e50a0360.png": "/portfolio/static/media/recyclePGEdit.e50a0360.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8217cc83.js",
-    "static/js/2.b1ecf739.chunk.js",
-    "static/css/main.4a8f6407.chunk.css",
-    "static/js/main.1837730f.chunk.js"
+    "static/js/runtime-main.2e3cbea4.js",
+    "static/js/2.8f2ee94b.chunk.js",
+    "static/css/main.9829045f.chunk.css",
+    "static/js/main.df532d6d.chunk.js"
   ]
 }
