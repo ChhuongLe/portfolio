@@ -22,8 +22,13 @@ const Landing = () => {
         <h1 className="name">I'm Chhuong</h1>
         <div className="job">a full-stack engineer</div>
       </div>
+      <div className="meContainer">
+        <div>Hi! My name is Chhuong (pronounced "CHONG") and I am a full stack engineer based in San Fransico, CA.
+          I love taking landscape photographs and doing sports. I am also a cat dad to the most adorable ragdoll, Loki!</div>
+        <div className="dots">. . . . .</div>
+      </div>
       <div className="techContainer">
-        <h2>What I know</h2>
+        <h2>My Tech Stack</h2>
         <div>
           <h3>Front End:</h3>
           <div className="skillIcons">
@@ -54,9 +59,6 @@ const Landing = () => {
             <SiFirebase  size={70}/>
           </div>
         </div>
-      </div>
-      <div className="meContainer">
-        <div>Get to know me!</div>
       </div>
       <div className="contactMeContainer">
         <div>Add button here to direct user to contact me page</div>

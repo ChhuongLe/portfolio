@@ -16,14 +16,30 @@
 }
 .name {
   position: absolute;
-  margin: 7.5% auto 0 auto;
+  font-family: 'Catamaran', 'sans-serif';
+  margin: 7% auto 0 auto;
   font-size: 2vw;
 }
 
 .job {
+  font-family: 'Ubuntu', 'sans-serif';
   position: absolute;
-  margin: 10.5% auto 0 auto;
+  margin: 9.7% auto 0 auto;
   font-size: 1vw;
+  color: rgb(65, 64, 64)
+}
+
+.meContainer{
+  text-align: center;
+  max-width: 50%;
+  margin: auto auto auto auto;
+  font-size: 20px;
+}
+
+.dots{
+  text-align: center;
+  font-size: 50px;
+  color: #DAE6F2;
 }
 
 .techContainer{
