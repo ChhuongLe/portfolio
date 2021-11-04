@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
 import  { AiOutlineHtml5 } from 'react-icons/ai';
 import { FaCss3Alt, FaReact, FaNodeJs, FaAws, FaDocker} from 'react-icons/fa'
@@ -12,7 +13,7 @@ import { SiJavascript,
          SiNginx,
          SiFirebase } from 'react-icons/si'
 import './Landing.css';
-import background from '../Images/Mountains.jpg';
+import background from '../Images/Mountains_edit.png';
 import prof from '../Images/Icon_prof.png';
 
 const style = {
@@ -39,7 +40,7 @@ const Landing = () => {
         <h2 className="bio-title">My Tech Stack</h2>
         <div>
           <h3 className="stack-title">Front End:</h3>
-          <IconContext.Provider value={{size: "3.25vw"}}>
+          <IconContext.Provider value={{size: 50}}>
             <AiOutlineHtml5 style={style}/>
             <FaCss3Alt style={style}/>
             <SiJavascript style={style}/>
@@ -48,7 +49,7 @@ const Landing = () => {
         </div>
         <div>
           <h3 className="stack-title">Back End:</h3>
-          <IconContext.Provider value={{size: "3.25vw"}} >
+          <IconContext.Provider value={{size: 50}} >
             <SiMysql style={style}/>
             <SiPostgresql style={style}/>
             <SiMongodb style={style}/>
@@ -57,7 +58,7 @@ const Landing = () => {
         </div>
         <div>
           <h3 className="stack-title">Other tools:</h3>
-          <IconContext.Provider value={{size:"3.25vw"}}>
+          <IconContext.Provider value={{size: 50}}>
             <SiJira style={style}/>
             <FaAws style={style}/>
             <SiBabel style={style}/>
@@ -67,12 +68,13 @@ const Landing = () => {
             <SiFirebase style={style}/>
           </IconContext.Provider>
         </div>
+        <button className="contact-button"><Link to ='/portfolio/projects' className="link-button">My Projects</Link></button>
       </div>
       <div className="dots">. . . . .</div>
       <div className="contact-container">
         <h2 className="contact-title">Get In Touch!</h2>
         <div className="contact-description">If you like my work or just want to talk about photography and cats while we code together, shoot me an email!</div>
-        <button className="contact-button">Contact Me!</button>
+        <button className="contact-button"><Link to='/portfolio/contact'className="link-button">Contact Me!</Link></button>
       </div>
    </div>
   );

@@ -6,12 +6,13 @@
 }
 
 .background {
-  max-width: 50%;
+  min-width: 1280px;
+  max-width: 1280px;
 }
 
 .salutation{
   font-family: 'Niconne', cursive;
-  font-size: 3.5vw;
+  font-size: 50px;
   padding-bottom: 20px;
   color: #094de0;
 
@@ -23,21 +24,21 @@
 
 .intro {
   position: absolute;
-  margin: 5% auto 0 auto;
-  font-size: 1.5vw;
+  margin: 210px auto 0 auto;
+  font-size: 20px;
 }
 .name {
   position: absolute;
   font-family: 'Catamaran', 'sans-serif';
-  margin: 7% auto 0 auto;
-  font-size: 2vw;
+  margin: 250px auto 0 auto;
+  font-size: 35px;
 }
 
 .job {
   font-family: 'Ubuntu', 'sans-serif';
   position: absolute;
-  margin: 9.7% auto 0 auto;
-  font-size: 1vw;
+  margin: 300px auto 0 auto;
+  font-size: 20px;
   color: rgb(65, 64, 64)
 }
 
@@ -48,13 +49,18 @@
 }
 
 .bio{
-  font-size: 1vw;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2;
 }
 
 .dots{
   text-align: center;
   font-size: 50px;
   color: #DAE6F2;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .techContainer{
@@ -63,27 +69,68 @@
 }
 
 .bio-title{
-  font-size: 1.5vw;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: bolder;
+  font-size: 30px;
   text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 .stack-title{
-  font-size: 1vw;
+  font-weight: 600;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 20px;
+}
+
+.project-button {
+  color: white;
+  background-color: #094de0;
+  text-decoration: none;
+  padding: 20px;
 }
 
 .contact-container{
   text-align: center;
-  margin-top: 20px;
+  margin: auto;
+  max-width: 50%;
 }
 
 .contact-title{
-  font-size: 1.5vw;
+  font-size: 30px;
   text-decoration: underline;
 }
 
+.contact-description{
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .contact-button{
-  border: none;
+  font-family: 'Ubuntu', 'sans-serif';
+  text-decoration: none;
+  font-weight: 600;
   background-color: #094de0;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  box-shadow: 0 0 10px #ccc;
+  transition: ease-in-out 0.3s;
+  margin-top: 20px;
+}
+
+.link-button{
+  text-decoration: none;
   color: white;
+}
+
+.link-button:visited{
+  color:white;
+}
+
+.contact-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  transition: ease-in-out 0.3s;
 }
 
