@@ -9,6 +9,18 @@
   max-width: 50%;
 }
 
+.salutation{
+  font-family: 'Niconne', cursive;
+  font-size: 3.5vw;
+  padding-bottom: 20px;
+  color: #094de0;
+
+}
+
+.profile-image {
+  padding: 20px;
+}
+
 .intro {
   position: absolute;
   margin: 5% auto 0 auto;
@@ -57,5 +69,21 @@
 
 .stack-title{
   font-size: 1vw;
+}
+
+.contact-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-title{
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+.contact-button{
+  border: none;
+  background-color: #094de0;
+  color: white;
 }
 

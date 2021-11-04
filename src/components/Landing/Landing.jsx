@@ -13,6 +13,7 @@ import { SiJavascript,
          SiFirebase } from 'react-icons/si'
 import './Landing.css';
 import background from '../Images/Mountains.jpg';
+import prof from '../Images/Icon_prof.png';
 
 const style = {
   margin: "0 .75vw 0 0"
@@ -28,7 +29,9 @@ const Landing = () => {
         <div className="job">a full-stack engineer</div>
       </div>
       <div className="meContainer">
-        <div className="bio">Hi! My name is Chhuong (pronounced "CHONG") and I am a full stack engineer based in San Fransico, CA.
+        <img className="profile-image" src={prof} alt='not available'/>
+        <div className="salutation">Hi!</div>
+        <div className="bio"> My name is Chhuong (pronounced "CHONG") and I am a full stack engineer based in San Fransico, CA.
           I love taking landscape photographs and doing sports. I am also a cat dad to the most adorable ragdoll, Loki!</div>
         <div className="dots">. . . . .</div>
       </div>
@@ -65,8 +68,11 @@ const Landing = () => {
           </IconContext.Provider>
         </div>
       </div>
-      <div className="contactMeContainer">
-        <div>Add button here to direct user to contact me page</div>
+      <div className="dots">. . . . .</div>
+      <div className="contact-container">
+        <h2 className="contact-title">Get In Touch!</h2>
+        <div className="contact-description">If you like my work or just want to talk about photography and cats while we code together, shoot me an email!</div>
+        <button className="contact-button">Contact Me!</button>
       </div>
    </div>
   );
