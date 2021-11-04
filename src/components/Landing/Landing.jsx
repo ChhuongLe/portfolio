@@ -14,6 +14,10 @@ import { SiJavascript,
 import './Landing.css';
 import background from '../Images/Mountains.jpg';
 
+const style = {
+  margin: "0 .75vw 0 0"
+}
+
 const Landing = () => {
   return(
     <div>
@@ -33,31 +37,31 @@ const Landing = () => {
         <div>
           <h3 className="stack-title">Front End:</h3>
           <IconContext.Provider value={{size: "3.25vw"}}>
-            <AiOutlineHtml5 />
-            <FaCss3Alt />
-            <SiJavascript />
-            <FaReact />
+            <AiOutlineHtml5 style={style}/>
+            <FaCss3Alt style={style}/>
+            <SiJavascript style={style}/>
+            <FaReact style={style}/>
           </IconContext.Provider>
         </div>
         <div>
           <h3 className="stack-title">Back End:</h3>
           <IconContext.Provider value={{size: "3.25vw"}} >
-            <SiMysql />
-            <SiPostgresql />
-            <SiMongodb />
-            <FaNodeJs />
+            <SiMysql style={style}/>
+            <SiPostgresql style={style}/>
+            <SiMongodb style={style}/>
+            <FaNodeJs style={style}/>
           </IconContext.Provider>
         </div>
         <div>
           <h3 className="stack-title">Other tools:</h3>
           <IconContext.Provider value={{size:"3.25vw"}}>
-            <SiJira />
-            <FaAws />
-            <SiBabel />
-            <SiWebpack />
-            <FaDocker />
-            <SiNginx />
-            <SiFirebase />
+            <SiJira style={style}/>
+            <FaAws style={style}/>
+            <SiBabel style={style}/>
+            <SiWebpack style={style}/>
+            <FaDocker style={style}/>
+            <SiNginx style={style}/>
+            <SiFirebase style={style}/>
           </IconContext.Provider>
         </div>
       </div>
