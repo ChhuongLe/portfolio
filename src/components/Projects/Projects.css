@@ -4,6 +4,7 @@
   align-items: center;
   background-color:#FFF;
   min-height: 100vh;
+  overflow:hidden;
 }
 
 .FEC{
@@ -16,7 +17,7 @@
 
 .FEC img{
   padding-top: 20px;
-  max-width: 1080px;
+  width: 80vw;
 }
 
 .img_description{
@@ -49,7 +50,7 @@
 
 .SDC img {
   padding-top: 20px;
-  max-width: 1080px;
+  max-width: 80vw;
 }
 
 .BlueOcean{
@@ -61,7 +62,7 @@
 
 .BlueOcean img{
   padding-top: 20px;
-  max-width: 1080px;
+  max-width: 80vw;
 }
 
 .RPG{
@@ -73,7 +74,7 @@
 
 .RPG img{
   padding-top: 20px;
-  max-width: 1080px;
+  max-width: 80vw;
 }
 
 .project-btn-text:visited{

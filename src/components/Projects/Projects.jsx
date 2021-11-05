@@ -12,14 +12,14 @@ const Projects = () => {
       <div className="FEC" role="button">
         <img src={FEC} alt="not available" />
           <div className="img_description">Project-Catwalk</div>
-          <div className="tech-stack">JavaScript | React | Styled-Components | CSS/HTML| EC2 | Jest | React-Testing Library | Lighthouse</div>
+          <div className="tech-stack">JavaScript | React | Styled-Components | CSS/HTML | EC2 | Jest | React-Testing Library | Lighthouse</div>
           <div className="img-desc">Web application built leveraging React and Styled-Components allowing clients to review and explore new products </div>
           <a href="https://github.com/KFCNuggets/project-catwalk" target="blank" className="project-btn-text"> View it here!</a>
       </div>
       <div className="SDC">
         <img src={SDC} alt="not available" />
         <div className="img_description">Atlier QA Backend</div>
-        <div className="tech-stack">Node.js | PostgresSql | mongoDB | Express | EC2 | Nginx | K6 |Loader.io</div>
+        <div className="tech-stack">Node.js | PostgresSql | mongoDB | Express | EC2 | Nginx | K6 | Loader.io</div>
         <div className="img-desc">Developed API that provided questions and answers data of a specified product to the front-end of project-catwalk</div>
         <a href="https://github.com/charismatic-cannolis/Q-A" target="blank" className="project-btn-text"> View it here!</a>
       </div>
