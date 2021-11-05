@@ -27,7 +27,7 @@ const Landing = () => {
         <img className="background" src={background} alt="not available"/>
         <div className="intro">Hello, world!</div>
         <h1 className="name">I'm Chhuong</h1>
-        <div className="job">a full-stack engineer</div>
+        <div className="job">a full-stack developer</div>
       </div>
       <div className="meContainer">
         <img className="profile-image" src={prof} alt='not available'/>

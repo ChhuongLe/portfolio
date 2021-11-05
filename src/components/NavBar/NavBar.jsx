@@ -6,7 +6,7 @@ import logo from '../Images/catLogo.jpg';
 
 const NavBar = () => {
   return (
-    <div className="ContainerNavBar">
+    <div className="navbar-container">
         <Link className="logoLink" to ='/portfolio/home'>
           <div className="logoContainer">
             <img className="logo" src={logo} alt="not available" />
@@ -15,7 +15,7 @@ const NavBar = () => {
         </Link>
     <div className="buttonContainer">
         <Link className="btn" to='/portfolio/projects'>Projects</Link>
-        <Link className="btn" to='/portfolio/about'>About</Link>
+        <Link className="btn" to='/portfolio/resume'>Resume</Link>
         <Link className="btn" to='/portfolio/contact'>Contact Me</Link>
       </div>
     </div>
