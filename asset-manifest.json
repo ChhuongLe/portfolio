@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b7166059.chunk.css",
-    "main.js": "/portfolio/static/js/main.f311205d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f311205d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6ccb0203.chunk.css",
+    "main.js": "/portfolio/static/js/main.b61a55f0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b61a55f0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2e3cbea4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2e3cbea4.js.map",
     "static/js/2.8839bc90.chunk.js": "/portfolio/static/js/2.8839bc90.chunk.js",
@@ -10,19 +10,19 @@
     "static/js/3.6433b16e.chunk.js": "/portfolio/static/js/3.6433b16e.chunk.js",
     "static/js/3.6433b16e.chunk.js.map": "/portfolio/static/js/3.6433b16e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b7166059.chunk.css.map": "/portfolio/static/css/main.b7166059.chunk.css.map",
+    "static/css/main.6ccb0203.chunk.css.map": "/portfolio/static/css/main.6ccb0203.chunk.css.map",
     "static/js/2.8839bc90.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8839bc90.chunk.js.LICENSE.txt",
+    "static/media/FrontPage.8ff9a969.png": "/portfolio/static/media/FrontPage.8ff9a969.png",
     "static/media/Mountains_edit.a266dc8a.png": "/portfolio/static/media/Mountains_edit.a266dc8a.png",
     "static/media/catLogo.e6d8f85d.jpg": "/portfolio/static/media/catLogo.e6d8f85d.jpg",
-    "static/media/databaseImage.d0907457.png": "/portfolio/static/media/databaseImage.d0907457.png",
-    "static/media/frontPageEdit.10a95a99.png": "/portfolio/static/media/frontPageEdit.10a95a99.png",
-    "static/media/healthyFoodsEdit.cf6cccc2.PNG": "/portfolio/static/media/healthyFoodsEdit.cf6cccc2.PNG",
-    "static/media/recyclePGEdit.e50a0360.png": "/portfolio/static/media/recyclePGEdit.e50a0360.png"
+    "static/media/databaseImage.4c3150b0.png": "/portfolio/static/media/databaseImage.4c3150b0.png",
+    "static/media/healthyFoods.cb4f66bf.PNG": "/portfolio/static/media/healthyFoods.cb4f66bf.PNG",
+    "static/media/recyclePG.592ac3df.png": "/portfolio/static/media/recyclePG.592ac3df.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2e3cbea4.js",
     "static/js/2.8839bc90.chunk.js",
-    "static/css/main.b7166059.chunk.css",
-    "static/js/main.f311205d.chunk.js"
+    "static/css/main.6ccb0203.chunk.css",
+    "static/js/main.b61a55f0.chunk.js"
   ]
 }
