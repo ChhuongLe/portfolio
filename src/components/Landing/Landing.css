@@ -14,7 +14,7 @@
   font-family: 'Niconne', cursive;
   font-size: 50px;
   padding-bottom: 20px;
-  color: #094de0;
+  color: #0e3147;
 
 }
 
@@ -53,6 +53,15 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 2;
+  padding: 10px;
+}
+
+.insta-description{
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 2;
+
 }
 
 .dots{
@@ -82,13 +91,6 @@
   font-size: 20px;
 }
 
-.project-button {
-  color: white;
-  background-color: #094de0;
-  text-decoration: none;
-  padding: 20px;
-}
-
 .contact-container{
   text-align: center;
   margin: auto;
@@ -106,12 +108,12 @@
   font-weight: 600;
 }
 
-.contact-button{
+.button{
   font-family: 'Ubuntu', 'sans-serif';
   text-decoration: none;
   font-weight: 600;
-  background-color: #094de0;
-  padding: 20px;
+  background-color: #0e3147;
+  padding: 15px 25px 15px 25px;
   border-radius: 20px;
   font-size: 20px;
   box-shadow: 0 0 10px #ccc;
@@ -128,7 +130,7 @@
   color:white;
 }
 
-.contact-button:hover{
+.button:hover{
   cursor: pointer;
   opacity: 0.7;
   transition: ease-in-out 0.3s;

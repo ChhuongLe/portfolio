@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { IconContext } from 'react-icons';
-import  { AiOutlineHtml5 } from 'react-icons/ai';
+import  { AiOutlineHtml5, AiOutlineInstagram } from 'react-icons/ai';
 import { FaCss3Alt, FaReact, FaNodeJs, FaAws, FaDocker} from 'react-icons/fa'
 import { SiJavascript,
          SiMysql,
@@ -34,6 +34,8 @@ const Landing = () => {
         <div className="salutation">Hi!</div>
         <div className="bio"> My name is Chhuong (pronounced "CHONG") and I am a full stack engineer based in San Fransico, CA.
           I love taking landscape photographs and doing sports. I am also a cat dad to the most adorable ragdoll, Loki!</div>
+        <div className="insta-description">Check him out here!</div>
+            <a href="https://www.instagram.com/lokithedoll/" target="blank"><AiOutlineInstagram size={50} color="black"/></a>
         <div className="dots">. . . . .</div>
       </div>
       <div className="techContainer">
@@ -68,13 +70,13 @@ const Landing = () => {
             <SiFirebase style={style}/>
           </IconContext.Provider>
         </div>
-        <button className="contact-button"><Link to ='/portfolio/projects' className="link-button">My Projects</Link></button>
+        <button className="button"><Link to ='/portfolio/projects' className="link-button">My Projects</Link></button>
       </div>
       <div className="dots">. . . . .</div>
       <div className="contact-container">
         <h2 className="contact-title">Get In Touch!</h2>
         <div className="contact-description">If you like my work or just want to talk about photography and cats while we code together, shoot me an email!</div>
-        <button className="contact-button"><Link to='/portfolio/contact'className="link-button">Contact Me!</Link></button>
+        <button className="button"><Link to='/portfolio/contact'className="link-button">Contact Me!</Link></button>
       </div>
    </div>
   );
