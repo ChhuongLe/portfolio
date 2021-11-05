@@ -1,3 +1,7 @@
+.landing-container{
+  max-width: 100%;
+  min-width: 100%;
+}
 .landingContainer{
   display: flex;
   background-color: #DAE6F2;
@@ -119,6 +123,7 @@
   box-shadow: 0 0 10px #ccc;
   transition: ease-in-out 0.3s;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .link-button{

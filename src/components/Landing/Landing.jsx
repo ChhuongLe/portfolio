@@ -22,7 +22,7 @@ const style = {
 
 const Landing = () => {
   return(
-    <div>
+    <div className="landing-container">
       <div className="landingContainer">
         <img className="background" src={background} alt="not available"/>
         <div className="intro">Hello, world!</div>

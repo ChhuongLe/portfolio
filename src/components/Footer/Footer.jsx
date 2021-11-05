@@ -1,10 +1,9 @@
 import React from 'react';
 import "./Footer.css";
-import {IconContext} from 'react-icons';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
 const style = {
-  padding: "0 50px 50px 0",
+  padding: "0 25px 50px 25px",
 }
 
 const Footer = () => {

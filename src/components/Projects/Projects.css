@@ -2,107 +2,95 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(179, 179, 179);
+  background-color:#FFF;
   min-height: 100vh;
 }
 
 .FEC{
-  margin-top: 130px;
-  overflow: hidden;
-  min-width: 70%;
-  max-width: 70%;
-  transition: ease-in-out 0.5s;
+  margin-top: 100px;
+  background-color: #0e3147;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .FEC img{
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 20px;
-}
-
-.FEC a{
-  text-decoration:none;
-  color: black;
+  padding-top: 20px;
+  max-width: 1080px;
 }
 
 .img_description{
-  font-size: 2vw;
-  position: absolute;
-  background-color: rgb(46, 46, 46);
-  color: white;
-  padding: 10px;
-  margin-top: -105px;
-  visibility: hidden;
-  transition: ease-in 0.1s;
+  color: #FFF;
+  padding-top: 10px;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.FEC:hover {
-  cursor: pointer;
-  transition: ease-out 0.3s;
-  opacity: 0.6;
+.tech-stack{
+  color: rgb(189, 189, 189);
+  padding-top:10px;
+  font-size: 15px;
 }
 
-.FEC:hover .img_description{
-  visibility: visible;
-  transition: ease-in 0.3s;
-  opacity: 1;
+.img-desc{
+  color: #FFF;
+  padding-top:10px;
+  padding-bottom: 50px;
+  font-size: 20px;
 }
 
 .SDC{
-  padding-top: 10px;
-  overflow: hidden;
-
-  min-width: 70%;
-  max-width: 70%;
-  transition: ease-in-out 0.5s;
-}
-
-.SDC:hover {
-  cursor: pointer;
-  transition: ease-out 0.5s;
-  opacity: 0.6;
+  background-color: #0f256e;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .SDC img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  padding-top: 20px;
+  max-width: 1080px;
 }
 
 .BlueOcean{
-  padding: 10px;
-  overflow: hidden;
-  min-width: 70%;
-  max-width: 70%;
-  transition: ease-in-out 0.5s;
-}
-
-.BlueOcean:hover {
-  cursor: pointer;
-  transition: ease-in-out 0.5s;
-  opacity: 0.6;
+  background-color: #0e3147;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .BlueOcean img{
-  max-width: 100%;
-  max-height: 100%;
+  padding-top: 20px;
+  max-width: 1080px;
 }
 
 .RPG{
-  overflow: hidden;
-
-  min-width: 70%;
-  max-width: 70%;
-  transition: ease-in-out 0.5s;
-}
-
-.RPG:hover {
-  cursor: pointer;
-  transition: ease-in-out 0.5s;
-  opacity: 0.6;
+  background-color: #495867;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .RPG img{
-  max-width: 100%;
-  max-height: 100%;
+  padding-top: 20px;
+  max-width: 1080px;
+}
+
+.project-btn-text:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.project-btn-text{
+  color: white;
+  text-decoration: none;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.project-btn-text:hover{
+  opacity: 0.7;
+  transition: ease-in-out 0.3s;
 }
