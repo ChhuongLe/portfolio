@@ -21,7 +21,7 @@ const About = () => {
       </div>
       <div className="resume-pdf">
         <Document file={resume} >
-          <Page pageNumber={1}  scale={2.0}/>
+          <Page pageNumber={1}  scale={1.3}/>
         </Document>
       </div>
     </div>

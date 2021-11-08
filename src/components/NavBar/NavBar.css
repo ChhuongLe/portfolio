@@ -1,37 +1,4 @@
-.navbar-container{
-  background-color:#FFF;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color:rgba(0, 0, 0, 0.687);
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  position: fixed;
-  min-width: 100%;
-  max-width: 100%;
-  z-index: 10;
-}
-.logoLink{
-  text-decoration: none;
-}
 
-.logoContainer{
-  display: flex;
-  flex-direction: row;
-  margin-top: -10px;
-}
-
-.logo{
-  width: auto;
-  height: 80px;
-  padding: 15px 0px 15px 15px;
-}
-
-.title{
-  padding-top: 15px;
-  color: black;
-  margin-left: 50px;
-}
 
 .buttonContainer{
   padding-top: 40px;
