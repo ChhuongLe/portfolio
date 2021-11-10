@@ -8,6 +8,7 @@ import {
   LogoContainer,
   StyledImage,
   StyledTitle,
+  LinkWrapper
 } from './NavBarElements.js';
 
 import logo from '../Images/catLogo.jpg';
@@ -16,6 +17,12 @@ const linkStyle = {
   textDecoration: "none",
   color:"black",
 };
+
+const styledLink = {
+  textDecoration: "none",
+  color: "black",
+  fontSize: "18px",
+}
 
 const NavBar = () => {
   return (
@@ -29,9 +36,11 @@ const NavBar = () => {
         </Link>
       </LeftSide>
       <RightSide>
-        <Link className="btn" to='/portfolio/projects'>Projects</Link>
-        <Link className="btn" to='/portfolio/resume'>Resume</Link>
-        <Link className="btn" to='/portfolio/contact'>Contact Me</Link>
+        <LinkWrapper>
+          <Link style={styledLink} to='/portfolio/projects'>Projects</Link>
+          <Link style={styledLink} to='/portfolio/resume'>Resume</Link>
+          <Link style={styledLink} to='/portfolio/contact'>Contact Me</Link>
+        </LinkWrapper>
       </RightSide>
     </NavbarContainer>
   )

@@ -39,3 +39,8 @@ export const RightSide = styled.div`
   padding-top: 40px;
   padding-right: 20px;
 `;
+
+export const LinkWrapper = styled.ul`
+  display: flex;
+  height: 100%;
+`;
