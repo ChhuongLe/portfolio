@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const NavbarContainer = styled.div`
   background-color:#FFF;
@@ -43,4 +44,14 @@ export const RightSide = styled.div`
 export const LinkWrapper = styled.ul`
   display: flex;
   height: 100%;
+  text-decoration: none;
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -10px;
 `;

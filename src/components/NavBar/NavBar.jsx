@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css';
 import {
   NavbarContainer,
   LeftSide,
@@ -8,7 +7,8 @@ import {
   LogoContainer,
   StyledImage,
   StyledTitle,
-  LinkWrapper
+  LinkWrapper,
+  StyledLink
 } from './NavBarElements.js';
 
 import logo from '../Images/catLogo.jpg';
@@ -17,12 +17,6 @@ const linkStyle = {
   textDecoration: "none",
   color:"black",
 };
-
-const styledLink = {
-  textDecoration: "none",
-  color: "black",
-  fontSize: "18px",
-}
 
 const NavBar = () => {
   return (
@@ -37,9 +31,9 @@ const NavBar = () => {
       </LeftSide>
       <RightSide>
         <LinkWrapper>
-          <Link style={styledLink} to='/portfolio/projects'>Projects</Link>
-          <Link style={styledLink} to='/portfolio/resume'>Resume</Link>
-          <Link style={styledLink} to='/portfolio/contact'>Contact Me</Link>
+          <StyledLink to='/portfolio/projects'>Projects </StyledLink>
+          <StyledLink to='/portfolio/resume'>Resume</StyledLink>
+          <StyledLink to='/portfolio/contact'>Contact Me</StyledLink>
         </LinkWrapper>
       </RightSide>
     </NavbarContainer>
