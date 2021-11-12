@@ -6,6 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
+import ScrollToTop from './components/helper';
 import Landing from './components/Landing/Landing';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume';
@@ -17,6 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar />
+        <ScrollToTop />
         <Switch>
           <Route exact path='/portfolio/' component={Landing} />
           <Route exact path='/portfolio/home' component={Landing} />
