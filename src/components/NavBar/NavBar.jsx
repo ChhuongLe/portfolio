@@ -37,8 +37,8 @@ const NavBar = () => {
       <Dropdown>
         <CloseButton onClick={barsClicked}>X</CloseButton>
         <LinkContainer>
-          <DropdownLink to='/portfolio/projects' onClick={barsClicked}>Projects</DropdownLink> <br />
-          <DropdownLink to='/portfolio/resume' onClick={barsClicked}>Resume</DropdownLink> <br />
+          <DropdownLink to='/portfolio/projects' onClick={barsClicked}>Projects</DropdownLink> <br /><br />
+          <DropdownLink to='/portfolio/resume' onClick={barsClicked}>Resume</DropdownLink> <br /> <br />
           <DropdownLink to='/portfolio/contact' onClick={barsClicked}>Contact Me!</DropdownLink>
         </LinkContainer>
       </Dropdown>
