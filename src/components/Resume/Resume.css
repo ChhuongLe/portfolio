@@ -33,6 +33,7 @@
   margin: 325px auto auto auto;
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 20px;
+  text-align: center;
 }
 
 .resume-text3{
@@ -64,7 +65,7 @@
   color:white;
   text-decoration: none;
   transition: ease-in-out 0.3s;
-  z-index: 10;
+  z-index: 9;
 }
 
 .profile-intro a:hover{
@@ -78,10 +79,12 @@
 }
 
 .resume-pdf{
-  margin-right: auto;
-  margin-left: auto;
-  width: 1200px;
-  height: 500px;
-  overflow:scroll;
+  margin-left: 500px;
 }
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+
 

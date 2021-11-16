@@ -1,10 +1,12 @@
 import React from 'react';
 
+import { ContactContainer } from './ContactElements.js';
+
 const Contact = () => {
   return (
-    <div>
+    <ContactContainer>
       Contact page in progress
-    </div>
+    </ContactContainer>
   )
 }
 
