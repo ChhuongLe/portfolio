@@ -78,13 +78,28 @@
   text-decoration: none;
 }
 
-.resume-pdf{
-  margin-left: 500px;
+.resume-items{
+  text-align: center;
 }
 
-.react-pdf__Page__textContent {
-  display: none;
+.working-exp{
+  margin-top: 10px;
 }
 
+.anda-container{
+  background-color: #854e1f;
+  display: grid;
+  grid-template-columns: 50px 50px
+}
 
+.anda-img {
+  max-width: 200px;
+  min-width: 200cx;
+  margin-top: 20px;
+}
+
+.job-title{
+  color: white;
+  font-size: 20px;
+}
 
