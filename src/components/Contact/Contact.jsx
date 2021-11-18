@@ -59,7 +59,7 @@ const Contact = () => {
       <StyledForm onSubmit={handleSubmit}>
         <label>Email: </label><br />
         <input
-          type="text"
+          type="email"
           placeholder="Email"
           name="from_name"
           defaultValue={toSend.from_name}
@@ -74,6 +74,8 @@ const Contact = () => {
           name="message"
           defaultValue={toSend.message}
           onChange={handleChange}
+          rows="5"
+          cols="23"
         />
         <br/>
         <button type="submit">Send it!</button>
