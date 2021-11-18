@@ -1,6 +1,7 @@
 .resume-container{
   max-width: 100%;
   min-width: 100%;
+  height: 100%;
 }
 
 .background-container{
@@ -76,30 +77,5 @@
 .profile-intro a:visited{
   color:white;
   text-decoration: none;
-}
-
-.resume-items{
-  text-align: center;
-}
-
-.working-exp{
-  margin-top: 10px;
-}
-
-.anda-container{
-  background-color: #854e1f;
-  display: grid;
-  grid-template-columns: 50px 50px
-}
-
-.anda-img {
-  max-width: 200px;
-  min-width: 200cx;
-  margin-top: 20px;
-}
-
-.job-title{
-  color: white;
-  font-size: 20px;
 }
 

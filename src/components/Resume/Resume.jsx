@@ -5,7 +5,7 @@ import { AiOutlineSmile } from 'react-icons/ai'
 import resume from '../Images/resume.pdf';
 import background from '../Images/Mountains_edit.png';
 
-import Anda from '../Images/anda.PNG';
+import Anda from '../Images/anda.jpg';
 
 const About = () => {
   return(
@@ -19,16 +19,6 @@ const About = () => {
         <div className="resume-text3">Or feel free to read about me below!</div>
         <div className="profile-intro">
           <a target="nothing" href={resume}>Download my resume</a>
-        </div>
-      </div>
-      <div className="resume-items">
-        <div className="working-exp">
-          Working Experience:
-        </div>
-        <div className="anda-container">
-          <img className="anda-img" src={Anda} alt="not availible"/> <br />
-          <span className="job-title">Job Title: Process Engineer</span>
-          <span></span>
         </div>
       </div>
     </div>
