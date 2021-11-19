@@ -1,6 +1,7 @@
 .landing-container{
   max-width: 100%;
   min-width: 100%;
+  font-family: 'Ubuntu', 'sans-serif';
 }
 
 .landingContainer{
@@ -41,7 +42,6 @@
 }
 
 .job {
-  font-family: 'Ubuntu', 'sans-serif';
   position: absolute;
   margin: 300px auto 0 auto;
   font-size: 20px;
@@ -55,7 +55,6 @@
 }
 
 .bio{
-  font-family: 'Ubuntu', 'sans-serif';
   font-weight: 600;
   font-size: 15px;
   line-height: 2;
@@ -63,7 +62,6 @@
 }
 
 .insta-description{
-  font-family: 'Ubuntu', 'sans-serif';
   font-weight: 600;
   font-size: 15px;
   line-height: 2;
@@ -84,7 +82,6 @@
 }
 
 .bio-title{
-  font-family: 'Ubuntu', 'sans-serif';
   font-weight: bolder;
   font-size: 30px;
   text-decoration: underline;
@@ -93,7 +90,6 @@
 
 .stack-title{
   font-weight: 600;
-  font-family: 'Ubuntu', 'sans-serif';
   font-size: 20px;
 }
 
@@ -109,13 +105,12 @@
 }
 
 .contact-description{
-  font-family: 'Ubuntu', 'sans-serif';
+  line-height: 2;
   font-size: 15px;
   font-weight: 600;
 }
 
 .button{
-  font-family: 'Ubuntu', 'sans-serif';
   text-decoration: none;
   font-weight: 600;
   background-color: #0e3147;

@@ -2,6 +2,7 @@
   max-width: 100%;
   min-width: 100%;
   height: 100%;
+  font-family: 'Ubuntu', 'sans-serif';
 }
 
 .background-container{
@@ -25,14 +26,12 @@
 .resume-text{
   position: absolute;
   margin: 300px auto auto auto;
-  font-family: 'Ubuntu', 'sans-serif';
   font-size: 20px;
 }
 
 .resume-text2{
   position: absolute;
   margin: 325px auto auto auto;
-  font-family: 'Ubuntu', 'sans-serif';
   font-size: 20px;
   text-align: center;
 }
@@ -40,7 +39,6 @@
 .resume-text3{
   position: absolute;
   margin: 650px auto auto auto;
-  font-family: 'Ubuntu', 'sans-serif';
   font-size: 20px;
   font-weight: 600;
 }
@@ -77,5 +75,47 @@
 .profile-intro a:visited{
   color:white;
   text-decoration: none;
+}
+
+.seperator{
+  color: #DAE6F2;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-container{
+  text-align: center;
+  background-color: #0f256e;
+  margin-top: -45px;
+}
+
+.about-bio{
+  color: white;
+  text-align: center;
+  width: 50%;
+  margin: auto auto auto auto;
+}
+
+.header{
+  padding-top: 50px;
+  font-family: 'Niconne', cursive;
+  font-size: 50px;
+}
+
+.section-header{
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.bio-description{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.keyboard {
+  max-width: 200px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
