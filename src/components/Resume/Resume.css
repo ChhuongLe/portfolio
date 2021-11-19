@@ -85,8 +85,9 @@
 
 .about-container{
   text-align: center;
-  background-color: #0f256e;
+  background-color: #0e3147;
   margin-top: -45px;
+  padding-bottom: 50px;
 }
 
 .about-bio{
@@ -117,5 +118,14 @@
   max-width: 200px;
   display: inline-block;
   padding-left: 10px;
+}
+
+.insta-bio{
+  color: white;
+}
+
+.insta-bio:visited{
+  text-decoration: none;
+  color: white;
 }
 
