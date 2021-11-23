@@ -38,8 +38,8 @@ export const StyledEllipses = styled.div`
 export const StyledForm = styled.form`
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 15px;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 30px;
+  padding-top: 40px;
   width: 100%;
   height: 300px;
 `;
@@ -51,6 +51,7 @@ export const StyledImage = styled.img`
   align-self: center;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
 `;
 
 export const FormContainer = styled.div`
@@ -58,5 +59,23 @@ export const FormContainer = styled.div`
   grid-template-columns: 2fr 2fr;
   grid-template-areas:
     ". contactImage form .";
-  background: 
+  background: #3c6487;
+`;
+
+export const StyledLabel = styled.label`
+  color: #FFF;
+`;
+
+export const StyledButton = styled.button`
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  color: white;
+
+  :hover{
+    cursor: pointer;
+  }
 `;

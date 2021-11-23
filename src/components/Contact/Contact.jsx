@@ -9,6 +9,8 @@ import {
   StyledForm,
   StyledEllipses,
   StyledImage,
+  StyledLabel,
+  StyledButton,
   FormContainer } from './ContactElements.js';
 import background from '../Images/Mountains_edit.png';
 import { AiOutlineArrowDown } from 'react-icons/ai';
@@ -62,7 +64,7 @@ const Contact = () => {
       <FormContainer>
         <StyledImage className="contactImage" src={ContactImage} />
         <StyledForm className="form" onSubmit={handleSubmit}>
-          <label>Email: </label><br />
+          <StyledLabel>Email: </StyledLabel><br />
           <input
             type="email"
             placeholder="Email"
@@ -72,7 +74,7 @@ const Contact = () => {
           />
           <br/>
           <br/>
-          <label>Message to Me: </label><br />
+          <StyledLabel>Message to Me: </StyledLabel><br />
           <textarea
             placeholder="What's on your mind?"
             type="text"
@@ -83,7 +85,7 @@ const Contact = () => {
             cols="23"
           />
           <br/>
-          <button type="submit">Send it!</button>
+          <StyledButton type="submit">Send it!</StyledButton>
         </StyledForm>
       </FormContainer>
     </ContactContainer>
