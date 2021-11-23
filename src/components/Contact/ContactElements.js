@@ -42,5 +42,21 @@ export const StyledForm = styled.form`
   padding-top: 20px;
   width: 100%;
   height: 300px;
-  background-color: #DAE6F2;
+`;
+
+export const StyledImage = styled.img`
+  display: inline-block;
+  max-width: 300px;
+  min-width: 100px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+export const FormContainer = styled.div`
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas:
+    ". contactImage form .";
+  background: 
 `;

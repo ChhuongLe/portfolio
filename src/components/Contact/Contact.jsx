@@ -7,9 +7,12 @@ import {
   StyledBackground,
   Salutations,
   StyledForm,
-  StyledEllipses } from './ContactElements.js';
+  StyledEllipses,
+  StyledImage,
+  FormContainer } from './ContactElements.js';
 import background from '../Images/Mountains_edit.png';
 import { AiOutlineArrowDown } from 'react-icons/ai';
+import ContactImage from '../Images/Loki.jpg';
 
 const style = {
   position:"absolute",
@@ -56,30 +59,33 @@ const Contact = () => {
         <AiOutlineArrowDown style={style} size={30}/>
       </Intro>
       <StyledEllipses> . . . . .</StyledEllipses>
-      <StyledForm onSubmit={handleSubmit}>
-        <label>Email: </label><br />
-        <input
-          type="email"
-          placeholder="Email"
-          name="from_name"
-          defaultValue={toSend.from_name}
-          onChange={handleChange}
-        />
-        <br/>
-        <br/>
-        <label>Message to Me: </label><br />
-        <textarea
-          placeholder="What's on your mind?"
-          type="text"
-          name="message"
-          defaultValue={toSend.message}
-          onChange={handleChange}
-          rows="5"
-          cols="23"
-        />
-        <br/>
-        <button type="submit">Send it!</button>
-      </StyledForm>
+      <FormContainer>
+        <StyledImage className="contactImage" src={ContactImage} />
+        <StyledForm className="form" onSubmit={handleSubmit}>
+          <label>Email: </label><br />
+          <input
+            type="email"
+            placeholder="Email"
+            name="from_name"
+            defaultValue={toSend.from_name}
+            onChange={handleChange}
+          />
+          <br/>
+          <br/>
+          <label>Message to Me: </label><br />
+          <textarea
+            placeholder="What's on your mind?"
+            type="text"
+            name="message"
+            defaultValue={toSend.message}
+            onChange={handleChange}
+            rows="5"
+            cols="23"
+          />
+          <br/>
+          <button type="submit">Send it!</button>
+        </StyledForm>
+      </FormContainer>
     </ContactContainer>
   )
 }
