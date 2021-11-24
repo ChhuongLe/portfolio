@@ -57,6 +57,7 @@ export const StyledImage = styled.img`
 export const FormContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 2fr;
+  gird-template-rows: 1fr 1fr;
   grid-template-areas:
     ". contactImage form .";
   background: #3c6487;
@@ -78,4 +79,17 @@ export const StyledButton = styled.button`
   :hover{
     cursor: pointer;
   }
+`;
+
+export const Modal = styled.div`
+  position: fixed;
+  z-index: 2;
+  inset: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transition-duration: 4s;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
 `;

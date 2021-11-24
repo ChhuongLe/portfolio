@@ -11,7 +11,8 @@ import {
   StyledImage,
   StyledLabel,
   StyledButton,
-  FormContainer } from './ContactElements.js';
+  FormContainer,
+  Modal } from './ContactElements.js';
 import background from '../Images/Mountains_edit.png';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import ContactImage from '../Images/Loki.jpg';
@@ -26,9 +27,11 @@ const Contact = () => {
     from_name: '',
     message: '',
   });
+  const [sent, setSent] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setSent(!sent);
     send(
       'service_xvogkdw',
       'template_42h1wri',
@@ -41,11 +44,53 @@ const Contact = () => {
     .catch((err)=>{
       console.log('Failed: ' + err);
     });
+
   }
 
   const handleChange = (e) => {
     console.log(e.target.value);
     setToSend({... toSend,[e.target.name]: e.target.value});
+  }
+
+  const handleClick = () => {
+    setSent(!sent);
+  }
+
+  let formView = (
+    <StyledForm className="form" onSubmit={handleSubmit}>
+      <StyledLabel>Email: </StyledLabel><br />
+      <input
+        type="email"
+        placeholder="Email"
+        name="from_name"
+        defaultValue={toSend.from_name}
+        onChange={handleChange}
+      />
+      <br/>
+      <br/>
+      <StyledLabel>Message to Me: </StyledLabel><br />
+      <textarea
+        placeholder="What's on your mind?"
+        type="text"
+        name="message"
+        defaultValue={toSend.message}
+        onChange={handleChange}
+        rows="5"
+        cols="23"
+      />
+      <br/>
+      <StyledButton type="submit">Send it!</StyledButton>
+    </StyledForm>
+  );
+
+  let modal;
+
+  if (sent) {
+    modal = (
+      <Modal>
+        <div>Sent!</div>
+      </Modal>
+    )
   }
 
   return (
@@ -60,33 +105,11 @@ const Contact = () => {
         </Salutations>
         <AiOutlineArrowDown style={style} size={30}/>
       </Intro>
-      <StyledEllipses> . . . . .</StyledEllipses>
       <FormContainer>
+        {/* <StyledEllipses> . . . . .</StyledEllipses> */}
         <StyledImage className="contactImage" src={ContactImage} />
-        <StyledForm className="form" onSubmit={handleSubmit}>
-          <StyledLabel>Email: </StyledLabel><br />
-          <input
-            type="email"
-            placeholder="Email"
-            name="from_name"
-            defaultValue={toSend.from_name}
-            onChange={handleChange}
-          />
-          <br/>
-          <br/>
-          <StyledLabel>Message to Me: </StyledLabel><br />
-          <textarea
-            placeholder="What's on your mind?"
-            type="text"
-            name="message"
-            defaultValue={toSend.message}
-            onChange={handleChange}
-            rows="5"
-            cols="23"
-          />
-          <br/>
-          <StyledButton type="submit">Send it!</StyledButton>
-        </StyledForm>
+        {formView}
+        {modal}
       </FormContainer>
     </ContactContainer>
   )
