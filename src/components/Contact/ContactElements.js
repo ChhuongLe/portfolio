@@ -61,6 +61,11 @@ export const FormContainer = styled.div`
   grid-template-areas:
     ". contactImage form .";
   background: #3c6487;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-type: column;
+  }
 `;
 
 export const StyledLabel = styled.label`
@@ -92,4 +97,13 @@ export const Modal = styled.div`
   justify-content: center;
   background-color: rgba(0,0,0,0.4);
   display: flex;
+`;
+
+export const MessageSent = styled.div`
+  background-color: white;
+  margin-top: 500px;
+  padding: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
 `;

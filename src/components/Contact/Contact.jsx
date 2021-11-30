@@ -12,7 +12,8 @@ import {
   StyledLabel,
   StyledButton,
   FormContainer,
-  Modal } from './ContactElements.js';
+  Modal,
+  MessageSent } from './ContactElements.js';
 import background from '../Images/Mountains_edit.png';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import ContactImage from '../Images/Loki.jpg';
@@ -32,28 +33,25 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSent(!sent);
-    send(
-      'service_xvogkdw',
-      'template_42h1wri',
-      toSend,
-      'user_CWvDaUwJyr3ZgRiAYPp2Q'
-    )
-    .then((res)=>{
-      console.log('Sent!', res.status, res.text);
-    })
-    .catch((err)=>{
-      console.log('Failed: ' + err);
-    });
+    // send(
+    //   'service_xvogkdw',
+    //   'template_42h1wri',
+    //   toSend,
+    //   'user_CWvDaUwJyr3ZgRiAYPp2Q'
+    // )
+    // .then((res)=>{
+    //   console.log('Sent!', res.status, res.text);
+    // })
+    // .catch((err)=>{
+    //   console.log('Failed: ' + err);
+    // });
+    console.log("clicked");
 
   }
 
   const handleChange = (e) => {
     console.log(e.target.value);
     setToSend({... toSend,[e.target.name]: e.target.value});
-  }
-
-  const handleClick = () => {
-    setSent(!sent);
   }
 
   let formView = (
@@ -65,6 +63,7 @@ const Contact = () => {
         name="from_name"
         defaultValue={toSend.from_name}
         onChange={handleChange}
+        style={{fontFamily:"Ubuntu, sans-serif"}}
       />
       <br/>
       <br/>
@@ -76,7 +75,8 @@ const Contact = () => {
         defaultValue={toSend.message}
         onChange={handleChange}
         rows="5"
-        cols="23"
+        cols="25"
+        style={{fontFamily:"Ubuntu, sans-serif"}}
       />
       <br/>
       <StyledButton type="submit">Send it!</StyledButton>
@@ -87,14 +87,18 @@ const Contact = () => {
 
   if (sent) {
     modal = (
-      <Modal>
-        <div>Sent!</div>
+      <Modal onClick={()=> {setSent(!sent);}} >
+        <MessageSent>
+          Message Sent! <br/>
+          <span style={{fontSize: "10px", paddingTop: "10px"}}>Click anywhere to exit</span>
+        </MessageSent>
       </Modal>
     )
   }
 
   return (
     <ContactContainer>
+      {modal}
       <Intro>
         <StyledBackground src={background} />
         <Salutations>
@@ -109,7 +113,6 @@ const Contact = () => {
         {/* <StyledEllipses> . . . . .</StyledEllipses> */}
         <StyledImage className="contactImage" src={ContactImage} />
         {formView}
-        {modal}
       </FormContainer>
     </ContactContainer>
   )
